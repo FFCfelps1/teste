@@ -16,3 +16,9 @@ jobs:
 
       - name: Exibir versão do Python
         run: python3 --version
+
+      - name: Install dependencies
+        run:  python3 -m pip install --upgrade pip
+          pip3 install pandas
+      
+
